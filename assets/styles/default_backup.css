@@ -1,0 +1,386 @@
+:root {
+    /* Color styles */
+    --colorstyle---primary: rgba(35, 121, 112, 1);
+    --colorstyle---pimary-variant: rgba(88, 182, 177, 1);
+    --colorstyle---secondary: rgba(200, 167, 82, 1);
+    --colorstyle---secondary-variant: rgba(236, 204, 121, 1);
+    --colorstyle---error: rgba(176, 74, 30, 1);
+    --colorstyle---warning: rgba(192, 173, 3, 1);
+    --colorstyle---success: rgba(89, 132, 46, 1);
+    --colorstyle---background: rgba(119, 119, 119, 1);
+    --colorstyle---surface: rgba(217, 217, 217, 1);
+    --colorstyle---on-primary: rgba(0, 0, 0, 1);
+    --colorstyle---on-secondary: rgba(0, 0, 0, 1);
+    --colorstyle---on-surface: rgba(28, 77, 77, 1);
+    --colorstyle---on-background: rgba(255, 255, 255, 1);
+    --colorstyle---on-error: rgba(243, 243, 242, 1);
+    --colorstyle---on-warning: rgba(243, 243, 242, 1);
+    --colorstyle---on-success: rgba(243, 243, 242, 1);
+
+    /* Text-size styles */
+    /* base size: body-text (16px) */
+    --display-large-size: 4rem;
+    --display-medium-size: 3.06rem;
+    --display-small-size: 2.44rem;
+    --subheading-large-size: 1.94rem;
+    --subheading-medium-size: 1.56rem;
+    --subheading-small-size: 1.25rem;
+    --body-text-size: 1rem;
+    --caption-size: 0.81rem;
+    --button-text-size: 1rem;
+    --block-quote-size: 1.12rem;
+
+}
+
+
+
+
+/* ------------------------------- Text styles------------------------------- */
+
+.display-large {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--display-large-size);
+    font-weight: 300;
+    color: var(--colorstyle---on-surface);
+    line-height: 77px;
+}
+.display-medium {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--display-medium-size);
+    font-weight: 300;
+    color: var(--colorstyle---on-surface);
+    line-height: 59px;
+}
+.display-small {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--display-small-size);
+    font-weight: 500;
+    color: var(--colorstyle---on-surface);
+    line-height: 47px;
+}
+.subheading-large {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--subheading-large-size);
+    font-weight: 500;
+    color: var(--colorstyle---on-surface);
+    line-height: 37px;
+}
+.subheading-medium {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--subheading-medium-size);
+    font-weight: 500;
+    color: var(--colorstyle---on-surface);
+    line-height: 30px;
+}
+.subheading-small {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--subheading-small-size);
+    font-weight: 300;
+    color: var(--colorstyle---on-surface);
+    line-height: 24px;
+}
+.body-text {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size:  var(--body-text-size);
+    font-weight: 500;
+    color: var(--colorstyle---on-surface);
+    line-height: 19px;
+}
+.caption {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--caption-size);
+    font-weight: 500;
+    color: var(--colorstyle---on-surface);
+    line-height: 16px;
+}
+.button-text {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--button-text-size);
+    font-weight: 400;
+    font-variant: small-caps;
+    color: var(--colorstyle---on-surface);
+    line-height: 19px;
+}
+.block-quote {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: var(--block-quote-size);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--colorstyle---on-surface);
+    line-height: 22px;
+}
+
+.bg-prim{
+    background-color: var(--colorstyle---primary);
+}
+
+.bg-primvar{
+    background-color: var(--colorstyle---pimary-variant);
+}
+
+.bg-sec{
+    background-color: var(--colorstyle---secondary);
+}
+
+.bg-secvar{
+    background-color: var(--colorstyle---secondary-variant);
+}
+
+.bg-error{
+    background-color: var(--colorstyle---error);
+}
+
+.bg-warning{
+    background-color: var(--colorstyle---warning);
+}
+
+.bg-success{
+    background-color: var(--colorstyle---success);
+}
+
+.bg-bg{
+    background-color: var(--colorstyle---background);
+}
+
+.bg-surface{
+    background-color: var(--colorstyle---surface);
+}
+
+.bg-onprim{
+    background-color: var(--colorstyle---on-primary);
+}
+
+.bg-onsec{
+    background-color: var(--colorstyle---on-secondary);
+}
+
+.bg-onsurface{
+    background-color: var(--colorstyle---on-surface);
+}
+
+.bg-onbg{
+    background-color: var(--colorstyle---on-background);
+}
+
+.bg-onerror{
+    background-color: var(--colorstyle---on-error);
+}
+
+.bg-onwarning{
+    background-color: var(--colorstyle---on-warning);
+}
+
+.bg-onsuccess{
+    background-color: var(--colorstyle---on-success);
+}
+
+.color-prim{
+    color: var(--colorstyle---primary);
+}
+
+.color-primvar{
+    color: var(--colorstyle---pimary-variant);
+}
+
+.color-sec{
+    color: var(--colorstyle---secondary);
+}
+
+.color-secvar{
+    color: var(--colorstyle---secondary-variant);
+}
+
+.color-error{
+    color: var(--colorstyle---error);
+}
+
+.color-warning{
+    color: var(--colorstyle---warning);
+}
+
+.color-success{
+    color: var(--colorstyle---success);
+}
+
+.color-bg{
+    color: var(--colorstyle---background);
+}
+
+.color-surface{
+    color: var(--colorstyle---surface);
+}
+
+.color-onprim{
+    color: var(--colorstyle---on-primary);
+}
+
+.color-onsec{
+    color: var(--colorstyle---on-secondary);
+}
+
+.color-onsurface{
+    color: var(--colorstyle---on-surface);
+}
+
+.color-onbg{
+    color: var(--colorstyle---on-background);
+}
+
+.color-onerror{
+    color: var(--colorstyle---on-error);
+}
+
+.color-onwarning{
+    color: var(--colorstyle---on-warning);
+}
+
+.color-onsuccess{
+    color: var(--colorstyle---on-success);
+}
+
+
+
+
+
+
+
+
+
+/* ------------------ 1. HEADER ------------------------------ */
+
+header {
+    display: block;
+    width: clamp(100px, 80%, 770px);
+    min-height: 310px;
+    margin: 20px auto;
+    border: 1px solid green;
+    position: relative;
+    background-color: var(--colorstyle---primary);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.45);
+
+}
+
+.title {
+    display: block;
+    border: 1px solid green;
+    background-color: var(--colorstyle---primary);
+}
+
+.topnav {
+    display: block;
+    border: 1px solid green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--colorstyle---primary);
+}
+
+.topnav li {
+    display: inline-block;
+    border: 1px solid green;
+    min-width: 30px;
+    height: 50px;
+    background-color: var(--colorstyle---secondary);
+    padding: 10px;
+}
+
+
+.sidenav {
+    display: block;
+    float: left;
+    border: 1px solid green;
+    width: 120px;
+    padding: 40px 10px;
+    position: fixed;
+    left: 0;
+    top: 430px;
+    background-color: var(--colorstyle---primary);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.sidenav li{
+    margin: 5px 0;
+}
+
+/* ------------------ 2. MAIN ------------------------------- */
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.content-card {
+    display: block;
+    border: 1px solid green;
+    width: clamp(100px, 80%, 770px);
+    min-height: 450px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.45);
+    background-color: var(--colorstyle---surface);
+}
+
+.content-title {
+    margin: 20px;
+}
+
+
+.content-sample {
+    margin: 20px;
+    border: 1px solid green;
+}
+
+.colorbox {
+    display: inline-block;
+    border: 1px dashed black;
+    margin: 20px;
+}
+
+.colorbox-thumbnail {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 0 10px 0 0;
+    border: 1px solid;
+    border-color: var(--colorstyle---primary);
+}
+
+.colorbox-caption {
+    display: block;
+    align-content: center;
+    width: 100px;
+    height: 18px;
+    margin: 10px auto;
+    border: 1px solid red;
+}
+
+
+
+/* ------------------ 3. FOOTER -------------------------------- */
+.contact {
+    display: block;
+    border: 1px solid green;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    padding: 10px;
+    height: 44px;
+    border-radius: 22px;
+    font-size: 22px;
+    background-color: var(--colorstyle---secondary);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.45);
+
+}
+
+.contact a {
+    color: var(--colorstyle---on-secondary);
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+
+
+

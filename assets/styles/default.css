@@ -85,7 +85,7 @@
     font-size:  var(--body-text-size);
     font-weight: 500;
     color: var(--colorstyle---on-surface);
-    line-height: 19px;
+    line-height: 22px;
 }
 .caption {
     font-family: OpenSans, Arial, Helvetica, sans-serif;

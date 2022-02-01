@@ -86,6 +86,7 @@
     font-weight: 500;
     color: var(--colorstyle---on-surface);
     line-height: 22px;
+    letter-spacing: 2px;
 }
 .caption {
     font-family: OpenSans, Arial, Helvetica, sans-serif;

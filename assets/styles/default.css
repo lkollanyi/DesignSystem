@@ -331,7 +331,6 @@ h2 {
 
 .colorbox {
     display: inline-block;
-    border: 1px dashed black;
     height: 150px;
     vertical-align: top;
 }
@@ -351,8 +350,6 @@ h2 {
     align-content: center;
     width: 100px;
     margin: 10px auto;
-    border: 1px dashed black;
-    background-color: crimson;
     
 }
 
